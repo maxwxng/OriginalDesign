@@ -1,11 +1,16 @@
 void setup()
 {
-  size(100,100);
+  size(500,500);
 }
+
 void draw()
 {
-  ellipse(50,50,50,50);
+  ill();
 }
-
-
-
+ void ill()
+ {
+   triangle(300,50,190,310,450,280);
+   triangle(300,50,150,180,190,310);
+   ellipse(320,200,80,30);
+   
+ }
